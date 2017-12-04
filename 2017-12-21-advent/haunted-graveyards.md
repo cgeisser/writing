@@ -2,7 +2,10 @@
 The subsystem that shows up as a cause in every postmortem, but never gets fixed. The source file that begins with 
 comments by several generations of engineers [warning of the hazard  that lies within](https://www.osti.gov/scitech/biblio/6799619). These are your organization’s haunted graveyards.
 
+![haunted graveyard](./dark-graveyard-small.jpg)
+
 A common conversation goes like this -
+
 *Enthusiastic new person*: My manager suggested I add better monitoring to the $omg_scary_thing, where should I start?
 
 *Grumpy senior engineer*: Um, the code is over there, but its 50,000 lines of spaghetti. The last time we touched it we learned it also processes payroll, and the person who wrote it quit 6 months ago. We just try not to touch it.
@@ -43,6 +46,8 @@ Write a postmortem, even if everything goes fine.
 Rinse, repeat as necessary
 A key reason systems become haunted is lack of practice, which eventually becomes fear of change. 
 If the process is scary you should do it frequently until it isn’t scary anymore.
+
+![sunny graveyard](./light-graveyard-small.jpg)
 
 # Proxies and mirrored requests
 If leaping right in seems too risky, you have another option. Replace the `$scary_system` with a tiny piece of code that forwards each request to the real thing.
