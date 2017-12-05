@@ -66,8 +66,12 @@ This process can be slow and requires engineering, but it is much safer and more
 
 
 # Preventing the haunting in the first place
-Ideally your systems never get into this state. Rebuild and deploy code often, even if not much has changed. 
-Ensure every component has an owner. Build robust logging and [observability](https://honeycomb.io/blog/2017/11/best-practices-for-observability/)
+Ideally your systems never get into this state. 
+- Rebuild and deploy code often, even if not much has changed. 
+- Ensure every component has an owner. 
+- Build robust logging and [observability](https://honeycomb.io/blog/2017/11/best-practices-for-observability/)
 into everything so you can refer to data rather than lore.
+- Treat technology and platform migrations as real projects, and don't declare them _done_ until all the old 
+components are gone.
 
 Happy Solstice everyone!
