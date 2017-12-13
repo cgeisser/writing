@@ -6,11 +6,11 @@ comments by several generations of engineers [warning of the hazard  that lies w
 
 A common conversation goes like this -
 
-**Enthusiastic New Person**: _My manager suggested I add better monitoring to the `$scary_thing`, where should I start?"_
+**Enthusiastic New Person**: _"My manager suggested I add better monitoring to the `$scary_thing`, where should I start?"_
 
-**Grumpy Senior Engineer**: _Um, the code is over there, but it's 50,000 lines of spaghetti. The last time we touched it we learned it also processes payroll, and the person who wrote it quit 6 months ago. We just try not to touch it._
+**Grumpy Senior Engineer**: _"Um, the code is over there, but it's 50,000 lines of spaghetti. The last time we touched it we learned it also processes payroll, and the person who wrote it quit 6 months ago. We just try not to touch it."_
 
-**A Different Grumpy Senior Engineer**: _Yup, I looked at fixing it a few years ago and gave up. When it crashes we just restart it and hope it keeps going._
+**A Different Grumpy Senior Engineer**: _"Yup, I looked at fixing it a few years ago and gave up. When it crashes we just restart it and hope it keeps going."_
 
 **Great.** Now you have a system so haunted that two senior members on the team refuse to go near it. You’ve chosen to encase it in concrete and warning signs rather than fix it.
 
